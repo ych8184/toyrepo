@@ -13,7 +13,7 @@ int main(void) {
 		value = fib(choice);
 
 		if (choice > 1) push(value);
-		else printf("value on top is %d\n", pop());
+		else if (choice >= 0) printf("value on top is %d\n", pop());
 
 	} while(choice != -1);
 
