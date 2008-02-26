@@ -24,8 +24,7 @@ int pop(void) {
 }
 
 int peek(void) {
-	printf("peek: unimplemented\n");
-	return 0;
+	return *p1;
 }
 
 
