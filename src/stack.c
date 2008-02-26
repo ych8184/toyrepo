@@ -15,26 +15,6 @@ void push(int i) {
 }
 
 int pop(void) {
-	printf("pop: unimplemented\n");
-	return 0;
-}
-
-int peek(void) {
-	printf("peek: unimplemented\n");
-	return 0;
-}
-
-/*
-void push(int i) {
-	p1++;
-	if(p1 == (tos+SIZE)) {
-		printf("Stack Overflow.\n");
-		exit(1);
-	}
-	*p1 = i;
-}
-
-int pop(void) {
 	if(p1 == tos) {
 		printf("Stack Underflow.\n");
 		exit(1);
@@ -42,4 +22,10 @@ int pop(void) {
 	p1--;
 	return *(p1+1);
 }
-*/
+
+int peek(void) {
+	printf("peek: unimplemented\n");
+	return 0;
+}
+
+
